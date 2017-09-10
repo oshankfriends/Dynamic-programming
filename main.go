@@ -22,7 +22,9 @@ func minSteps(step []int, sum int) int {
 	return res
 }
 func main() {
+	var dest int
 	steps := []int{1, 2, 3, 4, 5}
-	fmt.Println(minSteps(steps, 18))
+	fmt.Scanln(&dest)
+	fmt.Println(minSteps(steps, dest))
 }
 
